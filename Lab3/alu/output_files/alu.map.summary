@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Feb  8 12:20:51 2023
+Quartus II 64-Bit Version : 14.0.2 Build 209 09/17/2014 SJ Full Version
+Revision Name : alu
+Top-level Entity Name : lab3_block
+Family : Cyclone IV E
+Total logic elements : 47
+    Total combinational functions : 47
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 69
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
