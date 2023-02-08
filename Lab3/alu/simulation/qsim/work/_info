@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student2/jsma/COE 608/Lab3/alu/simulation/qsim
+valu
+Z1 !s100 UI5RPQz82gY@T@o^heBg;3
+Z2 I?b<Z@fElP4Pf5jUAFDX>T1
+Z3 V:Y>al[:0e1T3g5YQ]`NUc0
+Z4 d/home/student2/jsma/COE 608/Lab3/alu/simulation/qsim
+Z5 w1675144127
+Z6 8alu.vo
+Z7 Falu.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|alu.vo|
+Z10 o-work work -O0
+Z11 !s108 1675144131.283308
+Z12 !s107 alu.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+valu_vlg_check_tst
+Z13 !s100 oghH^:BO0;z>b1=2FJNhm0
+Z14 IRNV<cij8>3a=9RQh?ik]61
+Z15 V?^VklCOoEA[:njKCde>ej0
+R4
+Z16 w1675144123
+Z17 8alu.vwf.vt
+Z18 Falu.vwf.vt
+L0 62
+R8
+r1
+31
+Z19 !s108 1675144131.542992
+Z20 !s107 alu.vwf.vt|
+Z21 !s90 -work|work|alu.vwf.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+valu_vlg_sample_tst
+Z22 !s100 k1]0eNPYJN94bZj_VogEV3
+Z23 IJ=:CMNjHYJkNL=GN@bn2O0
+Z24 VD>9ZKXfmM9NdZ29<4YFei1
+R4
+R16
+R17
+R18
+L0 30
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+valu_vlg_vec_tst
+Z25 If[CiS9f;`HVIVdl1UGZF72
+Z26 VKh<<g<fN<83>nOE>KA>;A3
+R4
+R16
+R17
+R18
+Z27 L0 768
+R8
+r1
+31
+R19
+R20
+R21
+R10
+Z28 !s100 VFcY89:^4gg4]zC;8B_N<3
+!i10b 1
+!s85 0
+!s101 -O0
+vlab3_block
+Z29 !s100 JjN:Xj_zj9eM?2F=Y?bzg3
+Z30 I=5a6P@J34iBWjMEEZ9JS]3
+Z31 V<a`HP7GioTN6:2KQlh==F0
+R4
+Z32 w1675886537
+R6
+R7
+L0 32
+R8
+r1
+31
+R9
+R10
+!i10b 1
+!s85 0
+Z33 !s108 1675886540.894967
+R12
+!s101 -O0
+vlab3_block_vlg_vec_tst
+!i10b 1
+Z34 !s100 ?aDAk:FhNROfa2eneOAgR2
+Z35 IHYMP>moJmkV0C1>3G8gTA2
+Z36 VW=E`QlGAmRMm8Xm6@J:G73
+R4
+w1675886534
+R17
+R18
+L0 30
+R8
+r1
+!s85 0
+31
+!s108 1675886541.246283
+!s107 alu.vwf.vt|
+R21
+!s101 -O0
+R10
