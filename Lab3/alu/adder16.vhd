@@ -1,0 +1,29 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity adder16 is
+port(
+	Cin	:	IN STD_LOGIC;
+	X, Y	:	IN STD_LOGIC_VECTOR(15 downto 0);
+	S		:	OUT STD_LOGIC_VECTOR(15 downto 0);
+	Cout	:	OUT STD_LOGIC
+);
+end adder16;
+
+architecture Behavior of adder16 is
+	component adder4
+	port(
+		Cin	:	IN STD_LOGIC;
+		X, Y	:	IN STD_LOGIC_VECTOR(3 downto 0);
+		S		:	OUT STD_LOGIC_VECTOR(3 downto 0);
+		Cout	:	OUT STD_LOGIC
+	);
+	end component;
+	
+	signal C	:	STD_LOGIC_VECTOR(1 to 3);
+begin
+	stage0:	adder4 port map(Cin, X(3 downto 0), Y(3 downto 0), S(3 downto 0), C(1));
+	stage1:	adder4 port map(C(1), X(7 downto 4), Y(7 downto 4), S(7 downto 4), C(2));
+	stage2:	adder4 port map(C(2), X(11 downto 8), Y(11 downto 8), S(11 downto 8), C(3));
+	stage3:	adder4 port map(C(3), X(15 downto 12), Y(15 downto 12), S(15 downto 12), Cout);
+end Behavior;
