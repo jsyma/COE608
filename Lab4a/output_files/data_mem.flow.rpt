@@ -1,0 +1,165 @@
+Flow report for data_mem
+Thu Feb 16 18:53:09 2023
+Quartus II 64-Bit Version 14.0.2 Build 209 09/17/2014 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Thu Feb 16 18:53:09 2023       ;
+; Quartus II 64-Bit Version          ; 14.0.2 Build 209 09/17/2014 SJ Full Version ;
+; Revision Name                      ; data_mem                                    ;
+; Top-level Entity Name              ; data_mem                                    ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 9,943 / 114,480 ( 9 % )                     ;
+;     Total combinational functions  ; 5,769 / 114,480 ( 5 % )                     ;
+;     Dedicated logic registers      ; 8,224 / 114,480 ( 7 % )                     ;
+; Total registers                    ; 8224                                        ;
+; Total pins                         ; 75 / 529 ( 14 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/08/2023 22:13:32 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; data_mem            ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 203178706547562.167591241211681 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:21     ; 1.0                     ; 996 MB              ; 00:00:19                           ;
+; Fitter                    ; 00:02:33     ; 1.6                     ; 1563 MB             ; 00:03:17                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 819 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:09     ; 1.0                     ; 1010 MB             ; 00:00:10                           ;
+; EDA Netlist Writer        ; 00:00:12     ; 1.0                     ; 981 MB              ; 00:00:10                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1052 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1072 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1054 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1072 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1056 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1072 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1056 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1066 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1054 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1066 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1054 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:12     ; 1.0                     ; 1098 MB             ; 00:00:10                           ;
+; Total                     ; 00:03:56     ; --                      ; --                  ; 00:04:32                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                   ;
++---------------------------+------------------------+--------------+--------------+----------------+
+; Module Name               ; Machine Hostname       ; OS Name      ; OS Version   ; Processor type ;
++---------------------------+------------------------+--------------+--------------+----------------+
+; Analysis & Synthesis      ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; Fitter                    ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; Assembler                 ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; TimeQuest Timing Analyzer ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; cmp50.ee.ryerson.ca    ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; legato.ee.ryerson.ca   ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; legato.ee.ryerson.ca   ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; legato.ee.ryerson.ca   ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; legato.ee.ryerson.ca   ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; effrafax.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; effrafax.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; effrafax.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; effrafax.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
++---------------------------+------------------------+--------------+--------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off data_mem -c data_mem
+quartus_fit --read_settings_files=off --write_settings_files=off data_mem -c data_mem
+quartus_asm --read_settings_files=off --write_settings_files=off data_mem -c data_mem
+quartus_sta data_mem -c data_mem
+quartus_eda --read_settings_files=off --write_settings_files=off data_mem -c data_mem
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog data_mem -c data_mem --vector_source="/home/student2/jsma/COE 608/Lab4a/data_mem.vwf" --testbench_file="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/data_mem.vwf.vt"
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/" data_mem -c data_mem
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog data_mem -c data_mem --vector_source="/home/student2/jsma/COE 608/Lab4a/data_mem.vwf" --testbench_file="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/data_mem.vwf.vt"
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/" data_mem -c data_mem
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog data_mem -c data_mem --vector_source="/home/student2/jsma/COE 608/Lab4a/data_mem.vwf" --testbench_file="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/data_mem.vwf.vt"
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/" data_mem -c data_mem
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog data_mem -c data_mem --vector_source="/home/student2/jsma/COE 608/Lab4a/data_mem.vwf" --testbench_file="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/data_mem.vwf.vt"
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/" data_mem -c data_mem
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog data_mem -c data_mem --vector_source="/home/student2/jsma/COE 608/Lab4a/data_mem.vwf" --testbench_file="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/data_mem.vwf.vt"
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/" data_mem -c data_mem
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog data_mem -c data_mem --vector_source="/home/student2/jsma/COE 608/Lab4a/data_mem.vwf" --testbench_file="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/data_mem.vwf.vt"
+quartus_eda --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory="/home/student2/jsma/COE 608/Lab4a/simulation/qsim/" data_mem -c data_mem
+
+
+
